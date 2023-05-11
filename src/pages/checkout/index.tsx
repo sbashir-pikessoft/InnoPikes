@@ -1,4 +1,3 @@
-import { event } from "jquery";
 import Head from "next/head";
 import { useState } from "react";
 const Checkout = () => {
@@ -170,7 +169,7 @@ const Checkout = () => {
                         </div>
                         <div className="row">
                         <div className="col-md-12 mt-3">
-                            <button className="btn btn-primary  float-right"onClick={SubmitDetails} >Pay</button>
+                            <button className="btn btn-primary  float-right" onClick={SubmitDetails} >Pay</button>
                         </div>
                         </div>
                     </div>               

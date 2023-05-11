@@ -207,21 +207,6 @@ const Profile = () => {
         <>
             <Head>
                 <title>Innopikes | Profile</title>
-                <meta name="description" content="Innopikes" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/core/jquery.min.js"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/core/popper.min.js" type="text/javascript"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/bootstrap-switch.js"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/slick.js" type="text/javascript"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/anime.min.js" type="text/javascript"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/bootstrap-tagsinput.js"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
-                <script src="https://demos.creative-tim.com/blk-design-system-pro/assets/js/plugins/jasny-bootstrap.min.js"></script>
-
             </Head>
             <section className="section pb-0 pt-0" id="PersonalInfo">
                 <div className="col-md-10 ml-auto mr-auto">

@@ -116,7 +116,7 @@ export default function Home() {
             router.push('/account/login')
         }
         getInfo();
-    }, [router])
+    }, [getInfo, router])
 
     const AddInfo = async () => {
         const token = localStorage.getItem("token")
@@ -238,9 +238,6 @@ export default function Home() {
             <Head>
                 <title>Innopikes | Home</title>
                 <meta name="description" content="Innopikes" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
-                <link href='/static/css/Requirements.css' rel="stylesheet" />               
             </Head>
             {/* Info Model */}
             <div className="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >

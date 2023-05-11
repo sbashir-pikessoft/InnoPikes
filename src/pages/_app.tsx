@@ -3,7 +3,7 @@ import type {AppProps} from 'next/app'
 import Header from "@/components/layouts/header";
 import {NextPage} from "next";
 import {ReactElement, ReactNode} from "react";
-import Navebar from '@/components/layouts/navbar';
+import Navbar from '@/components/layouts/navbar';
 import '@/styles/Home.module.css'
 
 function App({Component, pageProps}: AppPropsWithLayout) {
@@ -15,7 +15,7 @@ function App({Component, pageProps}: AppPropsWithLayout) {
             
             <main className="dashboard">
                 <div style={{position:"relative"}}>
-                <Navebar />                
+                <Navbar />
                 </div>
                 <div >
                 <Header/>

@@ -1,16 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link';
-const Navebar=()=>{
+const Navbar=()=>{
     return(
         <>
             <Head>
                 <title>InnoPikes | Home</title>
                 <meta name="description" content="InnoPikes|Home" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
-                <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
-                <link href='/static/css/sidebar.css' rel="stylesheet"/>
-                <script src='/static/js/sidebar.js'/>
             </Head>
             <nav className="navbar active position-fixed p-0 m-0" style={{height: "100%",width: "12%"}}>
                 <div className="navbar-container pl-0">
@@ -46,4 +41,4 @@ const Navebar=()=>{
         </>
     );
 };
-export default Navebar;
+export default Navbar;
