@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import { useRouter } from "next/router";
-const mailValidate=()=>{
+const MailValidate=()=>{
     const router = useRouter();
     const apiUrl = process.env.NEXT_PUBLIC_API_URL!;
     const [mytoken,setMytoken]=useState('');
@@ -80,8 +80,8 @@ const mailValidate=()=>{
         }
     }
 }
-export default mailValidate;
-mailValidate.getLayout = function PageLayout(page: JSX.Element) {
+export default MailValidate;
+MailValidate.getLayout = function PageLayout(page: JSX.Element) {
     return (
         <>{page}</>
     )
